@@ -41,18 +41,35 @@ char *find_path(void);
 /* helper function for efficient free */
 void free_buffers(char **buf);
 
+/**
+ * struct builtin - struct for enviroment calls
+ * @env: opens variable
+ * @exit: returns variable
+ * Description: this is for the enviroment calls to apply setenv functions
+ */
 struct builtin
 {
 	char *env;
 	char *exit;
 } builtin;
 
+/**
+ * struct info - info display
+ * @final_exit: memory holder
+ * @ln_count: indentifer
+ * Description: to print the error message after execution
+ */
 struct info
 {
 	int final_exit;
 	int ln_count;
 } info;
 
+/**
+ * struct flags - flag handler
+ * @interactive: flag collector
+ * Description: variable for flag handling
+ */
 struct flags
 {
 	bool interactive;
