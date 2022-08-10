@@ -1,5 +1,5 @@
 "manpage for Simple_shell. Simple shell project to ALX School.
-.TH man 1 "14 April 2021" "Simple Shell"                    "10 August 2022" "1.0"                                              "simple_shell man page"
+.TH man 1 "14 April 2022" "Simple Shell"                    "10 August 2022" "1.0"                                              "simple_shell man page"
 SH NAME
 ALX Simple Shell
 - A simple UNIX command line interpreter.
